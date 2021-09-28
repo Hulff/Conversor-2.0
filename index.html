@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Hugo </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo-pagina">Sistemas de Conversão 2.0</h1>
+        </header>
+        <div class="div-opcoes">
+            <ul>
+                <li>
+                    <button class="botao" id="botao1" onClick="mostrarConversor1()">Conversor de Dolar</button>
+                </li>
+                <li>
+                    <button class="botao" id="botao2" onClick="mostrarConversor2()">Conversor de Euro</button>
+                </li>
+                <li>
+                    <button class="botao" id="botao3" onClick="mostrarConversor3()">Conversor de Iene</button>
+                </li>
+                <li>
+                    <button class="botao" id="botao4" onClick="mostrarConversor4()">Conversor de Peso</button>
+                </li>
+        </div>
+        <div class="div-conversao" id="conversor1" >
+            <div class="campo-numero">
+            <h3>Conversor de Dolar</h3>
+            <input onclick="resetar()" type="number" placeholder="Insira o valor em Dolar aqui" class="campo-texto" id="valor-dolar">
+            </div>
+            <button type="submit" class="converter" onclick="converterDolar()">converter</button>
+            <h2 id="resultado1"></h2>
+        </div>
+        <div  class="div-conversao" id="conversor2">
+            <div class="campo-numero">
+            <h3>Conversor de Euro</h3>
+            <input type="number" onclick="resetar()" placeholder="Insira o valor em Euro aqui"  class="campo-texto" id="valor-euro">
+            </div>
+            <button type="submit" onclick="converterEuro()" class="converter">converter</button>
+            <h2 id="resultado2"></h2>
+        </div>
+        <div  class="div-conversao" id="conversor3">
+            <div class="campo-numero">
+            <h3>Conversor de iene</h3>
+            <input type="number" onclick="resetar()" placeholder="Insira o valor em Iene aqui"  class="campo-texto" id="valor-iene">
+            </div>
+            <button type="submit" onclick="converterIene()" class="converter">converter</button>
+            <h2 id="resultado3"></h2>
+        </div>
+        <div  class="div-conversao" id="conversor4">
+            <div class="campo-numero">
+            <h3>Conversor de peso</h3>
+            <input type="number" onclick="resetar()" placeholder="Insira o valor em Peso aqui"  class="campo-texto" id="valor-peso">
+            </div>
+            <button type="submit" onclick="converterPeso()" class="converter">converter</button>
+            <h2 id="resultado4"></h2>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

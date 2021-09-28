@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    color: white;
+    font-family: Roboto;
+    max-height: 1080px;
+    max-width: 1920px;
+    background-color: rgb(0, 0, 0);
+    /*background-image: url(https://lh3.googleusercontent.com/gVa7Z6O1BdX_UvqanlAF0-DhywcvyvrRNPnbYYKjLjujCeCPR--BSVPGG3fY9oQH9H2qaKsnUDAt10K3TbSlOFhjP39nsHizU9sUhwf76Sv_kU3Rw-qiw3jjy5xIDARHxI_ey6L0oC58kUoXRatlnnmn0BpSi5aEkX32ZQ7K7qPW_XlC-Omi7NS2PWfFeTNi0MlVDWzUgBBBNfFCzLVoZ68gKBgNfbC5usJB4s-KYFta5J2g6Y_3Tk2i7EqDJUEjM3F_eLFTQppZ_q1Awl8yebJi5N8n4W5tbBwPoEHKlCJro-HFmqU6K0HhLFi_HuXQ6UIGBRAKY1sbG6J7S5QSkuP9_F3xX4z4BjQlXfTwib788vY0QZYWLNB9Vfq1h7kwznV4_i7ancG9DQPgrFGnBBm5A1a1UToPovDi_m0QIPN-cBT0o_AY_aIDDh_SXHgNvfHVX1XlFRFq14Ty0Cgk8aBK981MSN1DjdVjnMPxha4lTh3kF_b3bpR78fha0IsySNzjhYZAZXcbwWQMufumwJWE3JX0nyNpJRsRHRrRNKQkuvbSeVtMhnyRrXv72vuClo4CD3kTZucH01YsNfHtC9fmXCQ8nmBPJhTh_rXJYCwkE_a8xK69CHx7TzJUpj1eV-6FN0quDlQeSh1wIvCMMg7JUc1-kqYxX-aipAne2r4EXqW403NFuj1uUIzt8TP0QLhek0bqHHW3nt9LbOL7sOM=w567-h319-no?authuser=0);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div-opcoes {
+    display: initial;
+}
+.titulo-pagina {
+    color: white;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 128px;
+}
+body .div-opcoes ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+body .div-opcoes ul li button {
+    display: inline-block;
+    border: 0;
+    width: 200px;
+    height: 40px;
+    background: #1132F9;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0 10px;
+    outline: none;
+}
+
+body div { 
+    margin: 5px 250px;
+    display: none;
+}
+.div-conversao {
+    margin-top: 48px;
+}
+.campo-numero {
+    display: initial;
+}
+h3 {
+    text-align: center;
+    font-size: 43px;
+}
+.campo-texto {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    display: block;
+}
+.converter {
+    font-weight: 700;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    outline: none;
+    background-color: #1132F9;
+    margin: auto;
+}
+#resultado1,#resultado2,#resultado3,#resultado4 {
+    text-align: center;
+}
